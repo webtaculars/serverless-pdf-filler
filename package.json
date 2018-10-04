@@ -1,0 +1,21 @@
+{
+  "name": "serverless-pdf-filler",
+  "version": "1.0.0",
+  "description": "A serverless function to fill a fillable pdf with json data and store it on S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webtaculars/serverless-pdf-filler.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/webtaculars/serverless-pdf-filler/issues"
+  },
+  "homepage": "https://github.com/webtaculars/serverless-pdf-filler",
+  "dependencies": {
+    "pdffiller-stream": "^0.2.0"
+  }
+}
