@@ -36,10 +36,14 @@ In most cases, this data will be send in the `event` object while triggering the
 5. Update the aws credentials. Access key and access secret key can be taken from the IAM console. 
 
 ### Test locally
-`serverless invoke local —f pdftk`
+```
+serverless invoke local —f pdftk
+```
 
 ### Deploy
-`serveless deploy`
+```
+serveless deploy
+```
 
 
 
