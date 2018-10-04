@@ -19,30 +19,30 @@ A serverless lamblda function to fill a fillable pdf with json data and store th
 
 3. Add the required data to be filled in the pdf. 
 ```
-  const data = {
-    "name": "test name",
-    "date": "dd/mm/yyyy"
-  };
+    const data = {
+      "name": "test name",
+      "date": "dd/mm/yyyy"
+    };
 
 ```
 In most cases, this data will be send in the `event` object while triggering the lambda. 
 
 4. Update the S3 bucket name and the key of new pdf to be generated. 
 ```
-      const Bucket = "bucket"; // Create a bucket or use an existing one in S3.
-      const Key = "key"; // Name of the generated document
+    const Bucket = "bucket"; // Create a bucket or use an existing one in S3.
+    const Key = "key"; // Name of the generated document
 ```
 
 5. Update the aws credentials. Access key and access secret key can be taken from the IAM console. 
 
 ### Test locally
 ```
-serverless invoke local —f pdftk
+    serverless invoke local —f pdftk
 ```
 
 ### Deploy
 ```
-serveless deploy
+    serveless deploy
 ```
 
 
