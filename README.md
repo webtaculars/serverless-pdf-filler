@@ -1,5 +1,5 @@
 # serverless-pdf-filler
-A serverless lamblda function to fill a fillable pdf with json data and store the resulting pdf on S3.
+A serverless lambda function to fill a fillable pdf with json data and store the resulting pdf on S3.
 
 ## Pre-requisites
 - AWS account with [AWS-CLI](https://aws.amazon.com/cli/) configured and access to S3
@@ -25,7 +25,7 @@ A serverless lamblda function to fill a fillable pdf with json data and store th
     };
 
 ```
-In most cases, this data will be send in the `event` object while triggering the lambda. 
+In most cases, this data will be sent in the `event` object while triggering the lambda. 
 
 4. Update the S3 bucket name and the key of new pdf to be generated. 
 ```
@@ -42,7 +42,7 @@ In most cases, this data will be send in the `event` object while triggering the
 
 ### Deploy
 ```
-    serveless deploy
+    serverless deploy
 ```
 
 
